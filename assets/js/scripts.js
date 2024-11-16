@@ -1,0 +1,1 @@
+/* Arquivo destinado a scripts JS gerais */
