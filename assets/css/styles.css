@@ -199,3 +199,46 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #444444;
 }
+
+.intro h2 {
+    font-size: 48px;
+}
+
+.bio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bio-section h3 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+.bio-section p {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.bio-section p:last-child {
+    margin-bottom: 0;
+}
+
+.bio-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.bio-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
