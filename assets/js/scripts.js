@@ -1,1 +1,3 @@
-/* Arquivo destinado a scripts JS gerais */
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Página inicial carregada com sucesso!');
+});
