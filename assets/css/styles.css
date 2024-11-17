@@ -242,3 +242,39 @@ tr:hover {
     margin-bottom: 10px;
     font-size: 16px;
 }
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.album-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.album-details {
+    flex: 1;
+    text-align: left;
+}
+
+.album-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.album-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
